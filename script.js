@@ -4,3 +4,6 @@ const RegisterLink = document.querySelector('.SignUpLink');
 RegisterLink.addEventListener('click',()=>{
   container.classList.add('active');
 })
+Loginlink.addEventListener('click',()=>{
+  container.classList.remove('active');
+})
